@@ -1,0 +1,235 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>                                                                                                                        
+	<meta charset="UTF-8">                                                                                                
+	  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<style type="text/css">                                                                                                    
+    	*{margin:0;padding: 0;}                                                                                                      
+      body{background-color: #e3b9b9;}                                                                                          
+        h1{margin-top: 20px; text-align: center;}                                                                                 
+    	#div1{                                                                                                                       
+  			width: 800px;                                                                                                            
+     				height: 600px;                                                                                                           
+     				margin: 20px auto;                                                                                                       
+     				position: relative;                                                                                                      
+   		}                                                                                                                          
+     		#div1 img{                                                                                                                 
+     			cursor: pointer;                                                                                                         
+   			background-color: #fff;                                                                                                  
+   			border: 1px solid #ddd;                                                                                                  
+   			padding: 10px;                                                                                                           
+   			box-shadow: 2px 2px 3px rgba(50,50,50,0.4);                                                                              
+   			position: absolute;                                                                                                      
+   			z-index: 1;                                                                                                              
+   			transition: all 0.5s ease-in 0.2s;                                                                                       
+   			-webkit-transition: all 0.5s ease-in 0.2s;      
+			-moz-transition: all 0.5s ease-in 0.2s;                                                                                  
+   			-o-transition: all 0.5s ease-in 0.2s;                                                                                    
+   			-ms-transition: all 0.5s ease-in 0.2s;                                                                                   
+   		}                                                                                                                          
+     		#div1 img:hover{                                                                                                           
+     			box-shadow: 10px 10px 15px rgba(50,50,50,0.4);                                                                           
+   			transform:rotate(0deg) scale(1.5);                                                                                       
+   			-webkit-transform:rotate(0deg) scale(1.5);                                                                               
+   			-moz-transform:rotate(0deg) scale(1.5);                                                                                  
+   			-o-transform:rotate(0deg) scale(1.5);                                                                                    
+   			-ms-transform:rotate(0deg) scale(1.5);                                                                                   
+   			z-index: 2;                                                                                                              
+   		}                                                  
+		#pic0{
+			left: 251.0px;                                       
+  			top: 106.0px;                                        
+  			-webkit-transform:rotate(0deg);                  
+			-moz-transform:rotate(0deg);                     
+			-o-transform:rotate(0deg);                       
+			-ms-transform:rotate(0deg);                      
+		}                                                  
+		#pic1{
+			left: 166.0px;                                       
+  			top: 5.0px;                                        
+  			-webkit-transform:rotate(5deg);                  
+			-moz-transform:rotate(5deg);                     
+			-o-transform:rotate(5deg);                       
+			-ms-transform:rotate(5deg);                      
+		}                                                  
+		#pic2{
+			left: 74.0px;                                       
+  			top: 2.0px;                                        
+  			-webkit-transform:rotate(10deg);                  
+			-moz-transform:rotate(10deg);                     
+			-o-transform:rotate(10deg);                       
+			-ms-transform:rotate(10deg);                      
+		}                                                  
+		#pic3{
+			left: 12.0px;                                       
+  			top: 87.0px;                                        
+  			-webkit-transform:rotate(15deg);                  
+			-moz-transform:rotate(15deg);                     
+			-o-transform:rotate(15deg);                       
+			-ms-transform:rotate(15deg);                      
+		}                                                  
+		#pic4{
+			left: 6.0px;                                       
+  			top: 213.0px;                                        
+  			-webkit-transform:rotate(20deg);                  
+			-moz-transform:rotate(20deg);                     
+			-o-transform:rotate(20deg);                       
+			-ms-transform:rotate(20deg);                      
+		}                                                  
+		#pic5{
+			left: 59.0px;                                       
+  			top: 338.0px;                                        
+  			-webkit-transform:rotate(25deg);                  
+			-moz-transform:rotate(25deg);                     
+			-o-transform:rotate(25deg);                       
+			-ms-transform:rotate(25deg);                      
+		}                                                  
+		#pic6{
+			left: 148.0px;                                       
+  			top: 452.0px;                                        
+  			-webkit-transform:rotate(30deg);                  
+			-moz-transform:rotate(30deg);                     
+			-o-transform:rotate(30deg);                       
+			-ms-transform:rotate(30deg);                      
+		}                                                  
+		#pic7{
+			left: 237.0px;                                       
+  			top: 559.0px;                                        
+  			-webkit-transform:rotate(35deg);                  
+			-moz-transform:rotate(35deg);                     
+			-o-transform:rotate(35deg);                       
+			-ms-transform:rotate(35deg);                      
+		}                                                  
+		#pic8{
+			left: 296.0px;                                       
+  			top: 657.0px;                                        
+  			-webkit-transform:rotate(40deg);                  
+			-moz-transform:rotate(40deg);                     
+			-o-transform:rotate(40deg);                       
+			-ms-transform:rotate(40deg);                      
+		}                                                  
+		#pic9{
+			left: 319.0px;                                       
+  			top: 725.0px;                                        
+  			-webkit-transform:rotate(45deg);                  
+			-moz-transform:rotate(45deg);                     
+			-o-transform:rotate(45deg);                       
+			-ms-transform:rotate(45deg);                      
+		}                                                  
+		#pic10{
+			left: 321.0px;                                       
+  			top: 737.0px;                                        
+  			-webkit-transform:rotate(50deg);                  
+			-moz-transform:rotate(50deg);                     
+			-o-transform:rotate(50deg);                       
+			-ms-transform:rotate(50deg);                      
+		}                                                  
+		#pic11{
+			left: 332.0px;                                       
+  			top: 688.0px;                                        
+  			-webkit-transform:rotate(55deg);                  
+			-moz-transform:rotate(55deg);                     
+			-o-transform:rotate(55deg);                       
+			-ms-transform:rotate(55deg);                      
+		}                                                  
+		#pic12{
+			left: 377.0px;                                       
+  			top: 598.0px;                                        
+  			-webkit-transform:rotate(60deg);                  
+			-moz-transform:rotate(60deg);                     
+			-o-transform:rotate(60deg);                       
+			-ms-transform:rotate(60deg);                      
+		}                                                  
+		#pic13{
+			left: 457.0px;                                       
+  			top: 493.0px;                                        
+  			-webkit-transform:rotate(65deg);                  
+			-moz-transform:rotate(65deg);                     
+			-o-transform:rotate(65deg);                       
+			-ms-transform:rotate(65deg);                      
+		}                                                  
+		#pic14{
+			left: 551.0px;                                       
+  			top: 383.0px;                                        
+  			-webkit-transform:rotate(70deg);                  
+			-moz-transform:rotate(70deg);                     
+			-o-transform:rotate(70deg);                       
+			-ms-transform:rotate(70deg);                      
+		}                                                  
+		#pic15{
+			left: 621.0px;                                       
+  			top: 262.0px;                                        
+  			-webkit-transform:rotate(75deg);                  
+			-moz-transform:rotate(75deg);                     
+			-o-transform:rotate(75deg);                       
+			-ms-transform:rotate(75deg);                      
+		}                                                  
+		#pic16{
+			left: 639.0px;                                       
+  			top: 133.0px;                                        
+  			-webkit-transform:rotate(80deg);                  
+			-moz-transform:rotate(80deg);                     
+			-o-transform:rotate(80deg);                       
+			-ms-transform:rotate(80deg);                      
+		}                                                  
+		#pic17{
+			left: 596.0px;                                       
+  			top: 26.0px;                                        
+  			-webkit-transform:rotate(85deg);                  
+			-moz-transform:rotate(85deg);                     
+			-o-transform:rotate(85deg);                       
+			-ms-transform:rotate(85deg);                      
+		}                                                  
+		#pic18{
+			left: 511.0px;                                       
+  			top: -9.0px;                                        
+  			-webkit-transform:rotate(90deg);                  
+			-moz-transform:rotate(90deg);                     
+			-o-transform:rotate(90deg);                       
+			-ms-transform:rotate(90deg);                      
+		}                                                  
+		#pic19{
+			left: 419.0px;                                       
+  			top: 58.0px;                                        
+  			-webkit-transform:rotate(95deg);                  
+			-moz-transform:rotate(95deg);                     
+			-o-transform:rotate(95deg);                       
+			-ms-transform:rotate(95deg);                      
+		}                                                  
+		#pic20{
+			left: 353.0px;                                       
+  			top: 199.0px;                                        
+  			-webkit-transform:rotate(100deg);                  
+			-moz-transform:rotate(100deg);                     
+			-o-transform:rotate(100deg);                       
+			-ms-transform:rotate(100deg);                      
+		}                                                  
+	</style>
+</head>
+<body>                                                                                 
+	<h1>Helllo World</h1>                                                                       
+  	<div id="div1">                                                                    
+  		<img src="images/1.jpg" width="100px" height="100px" class="pic" id="pic0">       
+		<img src="images/2.jpg" width="100px" height="100px" class="pic" id="pic1">       
+		<img src="images/3.jpg" width="100px" height="100px" class="pic" id="pic2">       
+		<img src="images/4.jpg" width="100px" height="100px" class="pic" id="pic3">       
+		<img src="images/5.jpg" width="100px" height="100px" class="pic" id="pic4">       
+		<img src="images/6.jpg" width="100px" height="100px" class="pic" id="pic5">       
+		<img src="images/7.jpg" width="100px" height="100px" class="pic" id="pic6">       
+		<img src="images/8.jpg" width="100px" height="100px" class="pic" id="pic7">       
+		<img src="images/9.jpg" width="100px" height="100px" class="pic" id="pic8">       
+		<img src="images/1.jpg" width="100px" height="100px" class="pic" id="pic9">       
+		<img src="images/2.jpg" width="100px" height="100px" class="pic" id="pic10">       
+		<img src="images/3.jpg" width="100px" height="100px" class="pic" id="pic11">       
+		<img src="images/4.jpg" width="100px" height="100px" class="pic" id="pic12">       
+		<img src="images/5.jpg" width="100px" height="100px" class="pic" id="pic13">       
+		<img src="images/6.jpg" width="100px" height="100px" class="pic" id="pic14">       
+		<img src="images/7.jpg" width="100px" height="100px" class="pic" id="pic15">       
+		<img src="images/8.jpg" width="100px" height="100px" class="pic" id="pic16">       
+		<img src="images/9.jpg" width="100px" height="100px" class="pic" id="pic17">       
+		<img src="images/1.jpg" width="100px" height="100px" class="pic" id="pic18">       
+		<img src="images/2.jpg" width="100px" height="100px" class="pic" id="pic19">       
+		<img src="images/3.jpg" width="100px" height="100px" class="pic" id="pic20">       
+	</div>                                                                               
+</body>
+</html>
